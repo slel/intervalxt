@@ -13,6 +13,13 @@ Makefile.in
 Makefile
 INSTALL
 *.tar.gz
+.deps/
+.libs/
+.dirstamp
+*.la
+*.a
+*.o
+*.lo
 
 # http://www.gnu.org/software/autoconf
 
@@ -245,3 +252,4 @@ dmypy.json
 
 # nvim plugins
 .ccls-cache
+
